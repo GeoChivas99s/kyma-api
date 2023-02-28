@@ -10,22 +10,22 @@ const configuration = new Configuration({
 const openai = new OpenAIApi(configuration);
 
 const app: Application = express();
-// const options: cors.CorsOptions = {
+const options: cors.CorsOptions = {
 
-//   allowedHeaders: [
-//     "Origin",
-//     "X-Requested-With",
-//     "Content-Type",
-//     "Accept",
-//     "X-Access-Token",
-//   ],
-//   credentials: true,
-//   methods: "GET,HEAD,OPTIONS,PUT,PATCH,POST,DELETE",
-//   origin: "http://localhost:5000",
-//   preflightContinue: false,
-// };
+  allowedHeaders: [
+    "Origin",
+    "X-Requested-With",
+    "Content-Type",
+    "Accept",
+    "X-Access-Token",
+  ],
+  credentials: true,
+  methods: "GET,HEAD,OPTIONS,PUT,PATCH,POST,DELETE",
+  origin: "http://192.168.0.100:5000",
+  preflightContinue: false,
+};
 
-app.use(cors());
+app.use(cors(options));
 app.options("*", cors());
 app.use(bodyParser.json());
 
@@ -39,11 +39,14 @@ app.post("/api/chatGpt", async (req: Request, res: Response) => {
   });
   res.status(200).send(completion.data.choices[0].text);
 });
+app.get("/api/numeros", (req: Request , res: Response)=>{
+  res.status(200).send("Geovane é Lindo!!!")
+})
 
 const port = 5000;
 const host = "http://localhost";
 
 app.listen(port, () => {
-  console.log(`\nServer listening on ${host}:${port}\n`);
+  console.log(`\nServer listening on  192.168.0.100:${port}\n`);
 });
  
