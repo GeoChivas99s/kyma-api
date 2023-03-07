@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "august-boulder-379908",
+  "private_key_id": "2f0e16a3a60be41afba2c4769ae405104070a3df",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCjMh1z6RBfDAmZ\nFGDkofsha0OzMPDiIq+a3qfJlZkOFW/VP7Njq9mBGt6ZssfBeRRPckVoXp3WdD2k\nKlJXdRYj2F8pG4ef1J0ASA+8o0i15Y29IWVoCuqCHvG+mnAvaUKXieJPHWEuLnB2\nEitfjG46CZwT5NzSZ3WwGfm0Mxwi9iiHOpBbHl2zJ5bPajV27vy2dBuzQERT+w45\nXcFN/wNwpgu1LF7aZGfQxqHaww9KVMAYnAsS9Dlfs1PMyfiyKounyT6LAN3ecCON\n48VKRzWEqQpiXvjkTcFpqugc7TGGWqMySUewtP/r9HuGGGcqj9SdJa4N8iWCIw2+\nCRTPSb39AgMBAAECggEAJD15R+euMIUyTnG1kKAd7g5tYsoP/A+60lf2h6/2ZKfD\nBWaXdh9P9jkazKPkcyTpqzjTi/lS8LAwjhet4GkKaRxgCXdpF0e2M71M7VWPTIF1\nB9Z2N/QQnqOziGGwXv7vgEpo3KvIDGLYq4eeZSIAylee9tYAaaL7AgfKqUceTO7l\nKZzRN9sh6AjGdVYdEsDpEQlHxQjSuuUy9rZEqvnZFs/lBconDipTZL9ZkLhvUwJm\nd25WRzJbRIg9V2lpQdwNDhosnE+NHfPbxQMRc9xBNjgFv2b7QkLWRCpbN4dwzZ83\nG5c/vHorUJpN9B/gwB7qirq2QPD3ibe+cthlMmQnMQKBgQDXiXqB/4UlhsG36CoF\nADguB5C7x7LaM5Q7HFaDYE4o3o2bMS1XiJ5c8P+7M7xg6mFCoS9TX5rWlhaquSmo\nYmORa6RU8DbjCL3epwYknF9UOYzgHoSniiZVZKD6wr2speB/3stELfBNZ0MxWAzd\nklsxMP+4IujCI3k0XqO+VjyjKQKBgQDB1Sk49VlRcp13A2KWs2IaxVPHqXkRFu44\nLgr0oCKS4PPzj1R+X6MHK4rypdR4DFlz2PvYjwFbI0K5P42xAmap2D649YIJcYLr\nyHI7GwX8CjTjiTCK3jqWCLRF/d5+Dz2SFjFSu8DyCnJlDx2UGJFT0ux8Fc/0z8pT\nnVn9xxWStQKBgEP1nSMQJjNG4h3Sni0lfJFG4WPT+5jBWqOos76Ixxwr0Ap23w0S\njpxPgNLN5T/JpxETMZDgPDoc6Ni7uV7WZv6bKh1+AFBlmThzAYTZqVUtMDYaaUlK\nTfvu1rM6ZAPj6X1oCj9dHL/LJ2yPjr7uPsKr6HVuzGUqOjVBAfAp0MTBAoGBALEc\nQBVughWc/+reafg/orXJdpsq7JfD9xnYYGRT6iOBbwcvAUqTwphrngPHqNOknRvw\nuXaQfPG0z2QLgUGravlowS8qDY7pbHJbbp05PQemn9sE4RkSpD+xZl/J78IJ1P2m\nT51EN7Ix/4L+A83tgOUyBqn/GEyejUZHshHkFn89AoGBALruv99n9pAa0d3KpuMx\nJFD7OiX/pHjEGaweg8G+u6GgmUZvuft7pBbrmxJrrQFaNps+/NSoHIWgP6rGbQPb\nWINcxgPZxBUYafW2o5b9OojSlWokRWqNZrrvOkVIOH6CeN6nz7SGyTQDWlVuTGMU\nE/YXRQTakUsp88bNyHJcA4Q4\n-----END PRIVATE KEY-----\n",
+  "client_email": "kyma-177@august-boulder-379908.iam.gserviceaccount.com",
+  "client_id": "103789304952847187425",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/kyma-177%40august-boulder-379908.iam.gserviceaccount.com"
+}
