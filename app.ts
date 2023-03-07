@@ -11,7 +11,7 @@ const projectId = "august-boulder-379908";
 const client = new speech.SpeechClient({ keyFilename, projectId });
 
 const configuration = new Configuration({
-  apiKey: "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",
+  apiKey: "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",
 });
 process.env.GOOGLE_APPLICATION_CREDENTIALS = "keyfile.json";
 
